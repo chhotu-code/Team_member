@@ -1,0 +1,47 @@
+*{
+    margin: 1rem;
+}
+.upper-side{
+    text-align: center;
+    text-wrap: wrap;
+
+}
+.team{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.name{
+   height: 1rem;
+   margin-top: -1.5rem;
+   line-height: 0.5rem;
+}
+.heading{
+    padding: 0.6rem;
+    color: white;
+    background-color: rgb(92, 12, 223);
+    border: 1px solid gray;
+    border-radius: 1rem;
+}
+
+@media (max-width:360px) {
+    *{
+        margin: auto;
+        padding: auto;
+        margin-bottom: 10px;
+    }
+    .team{
+        margin: 1rem;
+        gap: 2rem;
+    }
+    .name{
+        margin-top: 10px;
+        line-height: 1rem;
+    }
+    .heading{
+        margin-top: -10px;
+    }
+    .underline{
+        display: none;
+    }
+}
